@@ -4,5 +4,5 @@ for i in range(int(input())):
 avg = sum(a)//len(a)
 thing = 0
 for i in a:
-    thing+=abs(avg-i)
+    thing += abs(avg-i)
 print(thing//2)
